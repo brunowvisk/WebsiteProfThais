@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="_css/tabuada.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header id="cabecalho">
+            <nav>
+                <div id="logo" class="logo">
+                    <img src="_images/logo1.png" alt="logo">
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="videoaulas.html">Videoaulas</a>
+                        </li>
+                        <li>
+                            <a href="tabuada.html">Tabuada</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+        </header>
+    </div>
+    <section id="corpo">
+        <div id="insertdados">
+            <p><label for="tnum">Número: </h5></label><input type="number" name="tnum" id="tnum" placeholder="Insira um número..."> <input type="button" id="button" value="Gerar tabuada" onclick="gerar()"> </p>
+        </div>
+        <div id="tabela">
+            <select name="seltab" id="seltab" size="10">
+                <option value="">Insira número acima!</option>
+            </select>
+        </div>
+    </section>
+    <script src="../_js/tabuada.js"></script>
+    <footer id="footer">
+        <p>&copy Brunowvisk</p>
+    </footer>
+</body>
+</html>

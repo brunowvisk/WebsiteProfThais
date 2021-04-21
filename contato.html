@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/stylecontato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <header id="cabecalho">
+            <nav>
+                <div id="logo" class="logo">
+                    <img src="_images/logo1.png" alt="logo">
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="videoaulas.html">Videoaulas</a>
+                        </li>
+                        <li>
+                            <a href="tabuada.html">Tabuada</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+        </header>
+    </div>
+    <section id="corpo">
+        <form id="formulário" name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label for="">Nome: <input type="text" name="name" maxlength="30" size="30" placeholder="Insira seu nome completo..."/></label>
+                </p>
+                <p>
+                    <label for="">E-mail: <input type="email" name="email" maxlenght="30" size="30" placeholder="Insira seu e-mail..."/></label>
+                </p>
+                <p>
+                    <label for="">Turma:
+                    <select name="turma[]" id="turma">
+                        <option value="TURMA 7A">TURMA 7A</option>
+                        <option value="TURMA 7B">TURMA 7B</option>
+                        <option value="TURMA 7C">TURMA 7C</option>
+                        <option value="TURMA 9A">TURMA 9A</option>
+                        <option value="TURMA 9B">TURMA 9B</option>
+                        <option value="TURMA 2A">TURMA 2A</option>
+                        <option value="TURMA 2B">TURMA 2B</option>
+                    </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="70" rows="12" maxlength="3000" placeholder="Insira seu comentário, elogio, questionamento..."></textarea>
+                </p>
+                <p>
+                    <button type="submit" id="enviar">ENVIAR</button>
+                </p>
+        </form>
+    </section>
+    <footer id="footer">
+        <p>Copyright &copy 2020 - By Brunowvisk</p>
+    </footer>
+</body>
+</html>

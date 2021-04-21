@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a5599;
+    opacity: 0.9;
+    height: 150px;
+}
+
+div#logo img {
+    position: absolute;
+    width: 22.2%;
+    display: flex;
+    margin: -60px 0px 0px -100px;
+}
+
+div li {
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    align-items: center;
+    padding: 3px;
+    margin: 5px;
+    letter-spacing: 3px;
+    transition: background-color 1s ease;
+    border-radius: 60%;
+}
+
+div li:hover {
+    background-color: #cfc8c8;
+    opacity: 1;
+    border-radius: 60%;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15pt bolder;
+}
+
+div li a:hover {
+    color: black;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+    color: black;
+    font-size: 13pt;
+    width: 1200px;
+    margin: auto;
+}
+
+section#corpo {
+    font-family: 'Arimo', sans-serif;
+    background-color: #0692ca;
+    width:1200px;
+    height: 460px;
+    padding: 5px;
+}
+
+div#insertdados {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tnum {
+    width: 135px;
+}
+
+#button {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    background-color: #1a5599;
+    border-bottom: #1a5599;
+    color: white;
+    width: 110px;
+    height: 30px;
+}
+
+#insertdados p {
+    color: white;
+    font-weight: bolder;
+}
+
+div#tabela {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer {
+    font-family: 'Arimo', sans-serif;
+    clear: both;
+    background-color: #1a5599;
+    background-size: cover;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer#footer p {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px
+}
